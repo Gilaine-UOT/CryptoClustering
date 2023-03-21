@@ -19,8 +19,12 @@ Using the elbow method, I determined the best value for K by plotting the elbow 
 
 ## Finding the Best Value for k Using the PCA Data
 
+By plotting the elbow curve on a line graph with hvplot and using the inertia values computed with different values of K to visually identify the optimal k value, I found the best value for K using the previous PCA data.
+
 ![](https://github.com/Gilaine-UOT/CryptoClustering/blob/main/Images/Capture4.PNG)
 
-## Find the Best Value for k Using the PCA Data
+## Clustering Cryptocurrencies with K-means
+
+I initialized the K-means model with the best value for k found previously and fit the model with the PCA data. I then predicted the clusters to group the cryptocurrencies and created a scatter plot using hvPlot with PC1 and PC2.
 
 ![](https://github.com/Gilaine-UOT/CryptoClustering/blob/main/Images/Capture5.PNG)
